@@ -1,0 +1,17 @@
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Repository\bin\Debug\net6.0\API.Repository.deps.json
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Repository\bin\Debug\net6.0\API.Repository.runtimeconfig.json
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Repository\bin\Debug\net6.0\API.Repository.dll
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Repository\bin\Debug\net6.0\API.Repository.pdb
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Repository\bin\Debug\net6.0\API.Model.dll
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Repository\bin\Debug\net6.0\API.Model.pdb
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Repository\obj\Debug\net6.0\API.Repository.csproj.AssemblyReference.cache
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Repository\obj\Debug\net6.0\API.Repository.GeneratedMSBuildEditorConfig.editorconfig
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Repository\obj\Debug\net6.0\API.Repository.AssemblyInfoInputs.cache
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Repository\obj\Debug\net6.0\API.Repository.AssemblyInfo.cs
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Repository\obj\Debug\net6.0\API.Repository.csproj.CoreCompileInputs.cache
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Repository\obj\Debug\net6.0\API.Repository.csproj.CopyComplete
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Repository\obj\Debug\net6.0\API.Repository.dll
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Repository\obj\Debug\net6.0\refint\API.Repository.dll
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Repository\obj\Debug\net6.0\API.Repository.pdb
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Repository\obj\Debug\net6.0\API.Repository.genruntimeconfig.cache
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Repository\obj\Debug\net6.0\ref\API.Repository.dll

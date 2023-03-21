@@ -1,0 +1,14 @@
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\bin\Debug\net6.0\API.Service.deps.json
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\bin\Debug\net6.0\API.Service.runtimeconfig.json
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\bin\Debug\net6.0\API.Service.dll
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\bin\Debug\net6.0\API.Service.pdb
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\obj\Debug\net6.0\API.Service.csproj.AssemblyReference.cache
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\obj\Debug\net6.0\API.Service.GeneratedMSBuildEditorConfig.editorconfig
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\obj\Debug\net6.0\API.Service.AssemblyInfoInputs.cache
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\obj\Debug\net6.0\API.Service.AssemblyInfo.cs
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\obj\Debug\net6.0\API.Service.csproj.CoreCompileInputs.cache
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\obj\Debug\net6.0\API.Service.dll
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\obj\Debug\net6.0\refint\API.Service.dll
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\obj\Debug\net6.0\API.Service.pdb
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\obj\Debug\net6.0\API.Service.genruntimeconfig.cache
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\obj\Debug\net6.0\ref\API.Service.dll

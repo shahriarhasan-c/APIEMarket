@@ -1,0 +1,14 @@
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Business\bin\Debug\net6.0\API.Business.deps.json
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Business\bin\Debug\net6.0\API.Business.runtimeconfig.json
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Business\bin\Debug\net6.0\API.Business.dll
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Business\bin\Debug\net6.0\API.Business.pdb
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Business\obj\Debug\net6.0\API.Business.csproj.AssemblyReference.cache
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Business\obj\Debug\net6.0\API.Business.GeneratedMSBuildEditorConfig.editorconfig
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Business\obj\Debug\net6.0\API.Business.AssemblyInfoInputs.cache
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Business\obj\Debug\net6.0\API.Business.AssemblyInfo.cs
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Business\obj\Debug\net6.0\API.Business.csproj.CoreCompileInputs.cache
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Business\obj\Debug\net6.0\API.Business.dll
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Business\obj\Debug\net6.0\refint\API.Business.dll
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Business\obj\Debug\net6.0\API.Business.pdb
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Business\obj\Debug\net6.0\API.Business.genruntimeconfig.cache
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Business\obj\Debug\net6.0\ref\API.Business.dll
