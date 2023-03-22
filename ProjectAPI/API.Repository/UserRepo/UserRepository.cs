@@ -54,7 +54,15 @@ namespace API.Repository.UserRepo
                 return user;
             }
             return null;
-
+        }
+        public async Task<bool> DeleteAsync(User user)
+        {
+            _db.Users.Remove(user);
+            if(await _db.SaveChangesAsync() > 0)
+            {
+                return true;
+            }
+            return false;
         }
     }
 }

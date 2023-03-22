@@ -15,5 +15,6 @@ namespace API.Repository.UserRepo
         Task<User> CreateUserAsync(User user);
         Task<bool> GetByUserNameAsync(User user);
         Task<User>UpdateUserAsync(User user);
+        Task<bool> DeleteAsync(User user);
     }
 }

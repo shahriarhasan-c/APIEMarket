@@ -77,5 +77,21 @@ namespace ProjectAPI.Controllers.UserLogin
             return Ok(Updated);
         }
 
+        [HttpDelete("{Id}")]
+        public async Task<IActionResult>DeleteAsync(Guid Id)
+        {
+            var user = await _userRepository.GetByIdAsync(Id);
+            if(user == null)
+            {
+                return NotFound();
+            }
+            var response = await _userRepository.DeleteAsync(user);
+            if (response)
+            {
+                return Ok();
+            }
+            return BadRequest();
+        }
+
     }
 }
