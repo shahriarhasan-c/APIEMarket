@@ -58,7 +58,7 @@ namespace API.Repository.UserRepo
         public async Task<bool> DeleteAsync(User user)
         {
             _db.Users.Remove(user);
-            if(await _db.SaveChangesAsync() > 0)
+            if (await _db.SaveChangesAsync() > 0)
             {
                 return true;
             }

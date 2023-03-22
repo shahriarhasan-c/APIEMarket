@@ -66,11 +66,11 @@ namespace ProjectAPI.Controllers.UserLogin
             var response = await _userRepository.GetByIdAsync(Id);
             if (response == null)
             {
-                return NotFound(); 
+                return NotFound();
             }
             _mapper.Map(model, response);
             var Updated = await _userRepository.UpdateUserAsync(response);
-            if(Updated == null)
+            if (Updated == null)
             {
                 return BadRequest("Cannot Update!");
             }
@@ -78,10 +78,10 @@ namespace ProjectAPI.Controllers.UserLogin
         }
 
         [HttpDelete("{Id}")]
-        public async Task<IActionResult>DeleteAsync(Guid Id)
+        public async Task<IActionResult> DeleteAsync(Guid Id)
         {
             var user = await _userRepository.GetByIdAsync(Id);
-            if(user == null)
+            if (user == null)
             {
                 return NotFound();
             }
