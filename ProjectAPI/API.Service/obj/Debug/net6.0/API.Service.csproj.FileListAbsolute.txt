@@ -12,3 +12,8 @@ F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\obj\Debug\net6.0\refint\API.Serv
 F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\obj\Debug\net6.0\API.Service.pdb
 F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\obj\Debug\net6.0\API.Service.genruntimeconfig.cache
 F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\obj\Debug\net6.0\ref\API.Service.dll
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\bin\Debug\net6.0\API.Model.dll
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\bin\Debug\net6.0\API.Repository.dll
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\bin\Debug\net6.0\API.Model.pdb
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\bin\Debug\net6.0\API.Repository.pdb
+F:\APIEMarket\APIEMarket\ProjectAPI\API.Service\obj\Debug\net6.0\API.Service.csproj.CopyComplete

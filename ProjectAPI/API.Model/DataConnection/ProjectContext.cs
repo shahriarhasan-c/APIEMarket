@@ -10,11 +10,11 @@ namespace API.Model.DataConnection
 {
     public class ProjectContext : DbContext
     {
-        public ProjectContext(DbContextOptions<ProjectContext>options):base(options){ } 
-        DbSet<User> Users { get; set; }
-        DbSet<Admin> Admins { get; set; }
-        DbSet<Customer> Customers { get; set; }
-        DbSet<Category> Categories { get; set; }
-        DbSet<Product> Products { get; set; }
+        public ProjectContext(DbContextOptions<ProjectContext> options) : base(options) { }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Admin> Admins { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }

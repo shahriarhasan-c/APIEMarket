@@ -1,4 +1,6 @@
 ﻿using API.Model.DataConnection;
+using API.Repository.UserRepo;
+using API.Service;
 using Microsoft.EntityFrameworkCore;
 
 namespace ProjectAPI.DependencyInjection
@@ -15,7 +17,8 @@ namespace ProjectAPI.DependencyInjection
                 x.UseLoggerFactory(_loggerFactory);
             });
 
-            
+            services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<UserLoginService>();
         }
     }
 }

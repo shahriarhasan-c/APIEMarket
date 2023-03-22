@@ -15,4 +15,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\API.Model\API.Model.csproj" />
+    <ProjectReference Include="..\API.Repository\API.Repository.csproj" />
+  </ItemGroup>
+
 </Project>
