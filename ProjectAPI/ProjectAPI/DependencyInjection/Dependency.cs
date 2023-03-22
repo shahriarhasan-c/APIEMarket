@@ -1,4 +1,5 @@
 ﻿using API.Model.DataConnection;
+using API.Repository.AdminRepo;
 using API.Repository.UserRepo;
 using API.Service;
 using Microsoft.EntityFrameworkCore;
@@ -20,6 +21,7 @@ namespace ProjectAPI.DependencyInjection
             services.AddAutoMapper(typeof(Program));
 
             services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<IAdminRepository, AdminRepository>();
             services.AddTransient<UserLoginService>();
         }
     }
