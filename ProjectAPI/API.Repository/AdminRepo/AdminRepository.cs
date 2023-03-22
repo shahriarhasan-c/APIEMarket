@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace API.Repository.AdminRepo
 {
-    internal class AdminRepository
+    public class AdminRepository : IAdminRepository
     {
+
     }
 }
