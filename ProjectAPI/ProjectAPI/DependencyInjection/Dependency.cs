@@ -17,6 +17,8 @@ namespace ProjectAPI.DependencyInjection
                 x.UseLoggerFactory(_loggerFactory);
             });
 
+            services.AddAutoMapper(typeof(Program));
+
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddTransient<UserLoginService>();
         }

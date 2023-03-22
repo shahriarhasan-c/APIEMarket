@@ -14,5 +14,6 @@ namespace API.Repository.UserRepo
         Task<User> GetByIdAsync(Guid Id);
         Task<User> CreateUserAsync(User user);
         Task<bool> GetByUserNameAsync(User user);
+        Task<User>UpdateUserAsync(User user);
     }
 }

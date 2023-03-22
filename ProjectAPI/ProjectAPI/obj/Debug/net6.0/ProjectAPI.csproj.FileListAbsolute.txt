@@ -91,3 +91,5 @@ F:\APIEMarket\APIEMarket\ProjectAPI\ProjectAPI\obj\Debug\net6.0\refint\ProjectAP
 F:\APIEMarket\APIEMarket\ProjectAPI\ProjectAPI\obj\Debug\net6.0\ProjectAPI.pdb
 F:\APIEMarket\APIEMarket\ProjectAPI\ProjectAPI\obj\Debug\net6.0\ProjectAPI.genruntimeconfig.cache
 F:\APIEMarket\APIEMarket\ProjectAPI\ProjectAPI\obj\Debug\net6.0\ref\ProjectAPI.dll
+F:\APIEMarket\APIEMarket\ProjectAPI\ProjectAPI\bin\Debug\net6.0\AutoMapper.dll
+F:\APIEMarket\APIEMarket\ProjectAPI\ProjectAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -45,5 +45,16 @@ namespace API.Repository.UserRepo
             return await _db.Users.AnyAsync(x => x.Username == user.Username);
 
         }
+
+        public async Task<User> UpdateUserAsync(User user)
+        {
+            _db.Users.Update(user);
+            if (await _db.SaveChangesAsync() > 0)
+            {
+                return user;
+            }
+            return null;
+
+        }
     }
 }

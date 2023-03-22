@@ -4,6 +4,8 @@ using API.Model.Models;
 using API.Model.ViewModel;
 using API.Service;
 using Microsoft.EntityFrameworkCore;
+using API.Model.Dto;
+using AutoMapper;
 
 namespace ProjectAPI.Controllers.UserLogin
 {
@@ -13,10 +15,12 @@ namespace ProjectAPI.Controllers.UserLogin
     {
         private readonly IUserRepository _userRepository;
         private readonly UserLoginService _userService;
-        public UserLoginController(IUserRepository userRepository, UserLoginService userService)
+        private readonly IMapper _mapper;
+        public UserLoginController(IUserRepository userRepository, UserLoginService userService, IMapper mapper)
         {
             _userRepository = userRepository;
             _userService = userService;
+            _mapper = mapper;
         }
 
         [HttpGet]
@@ -54,6 +58,23 @@ namespace ProjectAPI.Controllers.UserLogin
                 return Conflict();
             }
 
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateUserAsync(Guid Id, UserUpdateDto model)
+        {
+            var response = await _userRepository.GetByIdAsync(Id);
+            if (response == null)
+            {
+                return NotFound(); 
+            }
+            _mapper.Map(model, response);
+            var Updated = await _userRepository.UpdateUserAsync(response);
+            if(Updated == null)
+            {
+                return BadRequest("Cannot Update!");
+            }
+            return Ok(Updated);
         }
 
     }
